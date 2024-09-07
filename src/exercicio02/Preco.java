@@ -1,4 +1,4 @@
-package exercicio01;
+package exercicio02;
 
 public class Preco {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package exercicio01;
+
 public class Temperatura {
     public static void main(String[] args) {
         double tempCelsius = 32;
