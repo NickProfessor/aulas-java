@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28483c69-388d-43c2-924a-30a411176eae" name="Changes" comment="exercicios01">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Condicionais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leitura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OutroLoop.java" afterDir="false" />
+    <list default="true" id="28483c69-388d-43c2-924a-30a411176eae" name="Changes" comment="continuando o curso">
+      <change afterPath="$PROJECT_DIR$/src/exercicio03/CalculoArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio03/ComparacaoNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio03/Fatorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio03/ParOuImpar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio03/PositivoNegativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio03/Tabuada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Estudos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio01/Estudos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Soma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio01/Soma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Subtracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio01/Subtracao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio01/Temperatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio01/Casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio02/Casting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio01/Conversao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio02/Conversao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio01/Desconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio02/Desconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio01/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio02/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio01/Palavras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio02/Palavras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicio01/Preco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio02/Preco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +51,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CalculoArea.executor": "Run",
     "Application.Casting.executor": "Run",
+    "Application.ComparacaoNumeros.executor": "Run",
     "Application.Condicionais.executor": "Run",
     "Application.Conversao.executor": "Run",
     "Application.Desconto.executor": "Run",
     "Application.Estudos.executor": "Run",
+    "Application.Fatorial.executor": "Run",
     "Application.Leitura.executor": "Run",
     "Application.Loop.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Media.executor": "Run",
-    "Application.OutroLoop.executor": "Debug",
+    "Application.OutroLoop.executor": "Run",
     "Application.Palavras.executor": "Run",
+    "Application.ParOuImpar.executor": "Run",
+    "Application.PositivoNegativo.executor": "Run",
     "Application.Preco.executor": "Run",
     "Application.Soma.executor": "Run",
     "Application.Subtracao.executor": "Run",
+    "Application.Tabuada.executor": "Run",
     "Application.Temperatura.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -81,20 +78,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OutroLoop">
-    <configuration name="Condicionais" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Condicionais" />
-      <module name="primeiro-programa-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Desconto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicio02.Desconto" />
+  <component name="RunManager" selected="Application.Fatorial">
+    <configuration name="CalculoArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio03.CalculoArea" />
       <module name="primeiro-programa-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercicio02.*" />
+          <option name="PATTERN" value="exercicio03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,34 +92,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leitura" />
+    <configuration name="ComparacaoNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio03.ComparacaoNumeros" />
       <module name="primeiro-programa-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loop" />
+    <configuration name="Fatorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio03.Fatorial" />
       <module name="primeiro-programa-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutroLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OutroLoop" />
+    <configuration name="ParOuImpar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio03.ParOuImpar" />
       <module name="primeiro-programa-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tabuada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio03.Tabuada" />
+      <module name="primeiro-programa-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OutroLoop" />
-        <item itemvalue="Application.Loop" />
-        <item itemvalue="Application.Leitura" />
-        <item itemvalue="Application.Condicionais" />
-        <item itemvalue="Application.Desconto" />
+        <item itemvalue="Application.Fatorial" />
+        <item itemvalue="Application.ParOuImpar" />
+        <item itemvalue="Application.Tabuada" />
+        <item itemvalue="Application.CalculoArea" />
+        <item itemvalue="Application.ComparacaoNumeros" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725650449816</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="continuando o curso">
+      <option name="closed" value="true" />
+      <created>1725723823897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725723823897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +212,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro programa em java" />
     <MESSAGE value="exercicios01" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercicios01" />
+    <MESSAGE value="continuando o curso" />
+    <option name="LAST_COMMIT_MESSAGE" value="continuando o curso" />
   </component>
 </project>
